@@ -1,0 +1,78 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 数据集（通常很大，不建议上传）
+Datasets/
+datasets/
+data/
+*.nii
+*.nii.gz
+*.h5
+*.npy
+*.npz
+
+# 模型检查点和保存的模型
+checkpoints/
+checkpoint/
+models/
+saved_models/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.pb
+
+# 日志
+logs/
+*.log
+runs/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# 其他
+*.zip
+*.tar.gz
+*.rar
